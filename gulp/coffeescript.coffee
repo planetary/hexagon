@@ -15,6 +15,7 @@ module.exports = (gulp, plugins) ->
         'serve': [
             path.resolve(__dirname, '../config/*')
             path.resolve(__dirname, '../handlers/*')
+            path.resolve(__dirname, '../*')
         ]
 
 
