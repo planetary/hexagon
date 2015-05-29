@@ -1,7 +1,15 @@
+###
+npm install --save include-all \
+                   gulp \
+                   gulp-help \
+                   gulp-load-plugins
+###
+
+
 # load plugins
 plugins = require('gulp-load-plugins')({
     # the glob to search for
-    'pattern': [ 'gulp-*', 'merge-*', 'run-*', 'main-*' ]
+    'pattern': ['gulp-*']
 
     # remove from the name of the module when adding it to the context...
     'replaceString': /\bgulp[\-.]|run[\-.]|merge[\-.]|main[\-.]/

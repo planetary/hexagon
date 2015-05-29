@@ -1,6 +1,6 @@
 {
   "name": "Hexagon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " Listens for HTTP events and pushes data into Slack.",
   "author": "Planetary <team@planetary.io>",
   "repository": {
@@ -15,7 +15,6 @@
     "body-parser": "^1.12.2",
     "coffee-script": "^1.9.2",
     "deep-extend": "^0.4.0",
-    "env-test": "^1.0.0",
     "express": "^4.12.3",
     "gulp": "^3.8.11",
     "gulp-coffeelint": "^0.5.0",

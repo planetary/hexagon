@@ -3,5 +3,6 @@ app = require './app'
 config = require './config'
 
 # start server
-app.listen config.server.port, ->
-    console.log("Server started on #{config.server.port}. To stop, hit Ctrl + C")
+port = config.server.port + (process.env.NODE_APP_INSTANCE or 0)
+app.listen port, ->
+    console.log("Server started on #{port}. To stop, hit Ctrl + C")
